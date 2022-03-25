@@ -65,9 +65,9 @@ import com.qa.qaDafneBoutiqueHotel.repo.Repo;
 		@Test
 		void readTest() throws Exception {
 			// db values
-			DafneReservations reservations a = new DafneReservations(1L, "suite1", "bedsize1", 100, false);
-			DafneReservations reservations b = new DafneReservations(2L, "suite2", "bedsize2", 120, false);
-			DafneReservations reservations c = new DafneReservations(3L, "suite3", "bedsize3", 150, true);
+			DafneReservations a = new DafneReservations(1L, "suite1", "bedsize1", 100, false);
+			DafneReservations b = new DafneReservations(2L, "suite2", "bedsize2", 120, false);
+			DafneReservations c = new DafneReservations(3L, "suite3", "bedsize3", 150, true);
 			
 			// store in List
 			List<DafneReservations> db = List.of(a, b, c);
@@ -118,20 +118,9 @@ import com.qa.qaDafneBoutiqueHotel.repo.Repo;
 			
 			}
 	
-	}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-					
-		
+	
 		
 		
 		}
 		
-	}
+	
